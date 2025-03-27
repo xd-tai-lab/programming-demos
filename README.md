@@ -10,7 +10,7 @@
 │   ├── common/                 # 公共代码
 │   └── m1-01-cli-input-echo/   # 最简单的交互式命令行
 │   ├── m1-02-cli-getopt/       # 使用 `getopt` 模块解析命令行参数
-│   ├── m1-03-cli-interactive/  # 命令行界面交互式的扫雷游戏
+│   ├── m1-03-cli-interactive/  # 非阻塞式命令行界面交互示例
 ```
 
 ## 运行方式
@@ -37,3 +37,15 @@ python3 demos/m1-01-cli-input-echo/main.py
 ### [m1-02-cli-getopt](demos/m1-02-cli-getopt/README.md)
 
 在 [m1-01-cli-input-echo](demos/m1-01-cli-input-echo/README.md) 的基础上，使用 `getopt` 模块解析命令行参数
+
+### [m1-03-cli-interactive](demos/m1-03-cli-interactive/README.md)
+
+非阻塞式命令行界面交互示例
+
+该示例演示了通过短期内把终端设置成非阻塞模式，以忽略在等待期间内的按键输入，从而实现非阻塞式命令行界面交互。
+
+非阻塞 IO 通常还会配合其他技术，如 `select`、`poll`、`epoll`、`kqueue` 等，以实现定制化的和更高效的 IO 处理。
+
+本示例的重点在于理解非阻塞 IO、输入回显的概念，用于在命令行界面中模拟各 AI 平台的聊天界面在 AI 输出时禁止输入的效果。
+
+当非阻塞 IO 具体用于终端、网络套接字（socket）、文件等 IO 操作时，在不同操作系统上的实现方式可能有所不同，所以这本身并不是重点。

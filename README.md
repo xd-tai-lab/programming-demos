@@ -33,3 +33,7 @@ python3 demos/m1-01-cli-input-echo/main.py
 ### [m1-01-cli-input-echo](demos/m1-01-cli-input-echo/README.md)
 
 最简单的交互式命令行，输入 `exit` 退出，输入 `help` 显示帮助，输入其他内容回显输入内容
+
+### [m1-02-cli-getopt](demos/m1-02-cli-getopt/README.md)
+
+在 [m1-01-cli-input-echo](demos/m1-01-cli-input-echo/README.md) 的基础上，使用 `getopt` 模块解析命令行参数

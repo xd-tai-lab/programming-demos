@@ -8,7 +8,7 @@
 .
 ├── demos/
 │   ├── common/                 # 公共代码
-│   └── m1-01-cli-input-echo/   # 最简单的交互式命令行，输入 `exit` 退出，输入 `help` 显示帮助，输入其他内容显示输入内容
+│   └── m1-01-cli-input-echo/   # 最简单的交互式命令行
 │   ├── m1-02-cli-getopt/       # 使用 `getopt` 模块解析命令行参数
 │   ├── m1-03-cli-interactive/  # 命令行界面交互式的扫雷游戏
 ```
@@ -27,3 +27,9 @@
 ```shell
 python3 demos/m1-01-cli-input-echo/main.py
 ```
+
+## Demos
+
+### [m1-01-cli-input-echo](demos/m1-01-cli-input-echo/README.md)
+
+最简单的交互式命令行，输入 `exit` 退出，输入 `help` 显示帮助，输入其他内容回显输入内容

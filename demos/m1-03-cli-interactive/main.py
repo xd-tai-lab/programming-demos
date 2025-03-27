@@ -155,7 +155,7 @@ def exit():
 def main():
     global PROMPT, BREAK_TIME_SECONDS
     try:
-        opts, args = getopt.getopt(sys.argv[1:], 'hp:', ['help', 'prompt='])
+        opts, args = getopt.getopt(sys.argv[1:], 'b:hp:', ['break', 'help', 'prompt='])
         for opt, arg in opts:
             if opt in ('-h', '--help'):
                 usage()

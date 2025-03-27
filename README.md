@@ -8,9 +8,9 @@
 .
 ├── demos/
 │   ├── common/                 # 公共代码
-│   └── m1-01-cli-input-echo/   # 最简单的交互式命令行
+│   ├── m1-01-cli-input-echo/   # 最简单的交互式命令行
 │   ├── m1-02-cli-getopt/       # 使用 `getopt` 模块解析命令行参数
-│   ├── m1-03-cli-interactive/  # 非阻塞式命令行界面交互示例
+│   └── m1-03-cli-interactive/  # 非阻塞式命令行界面交互示例
 ```
 
 ## 运行方式
